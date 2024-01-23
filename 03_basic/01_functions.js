@@ -31,6 +31,27 @@ console.log(logIn());
 function addToCart(...num1){
     return num1
 }
-// let total = addToCart(200,600,700).map(()=>{
-//     console.log(total);
-// });
+
+
+// let user = {
+//     name: 'rohan',
+//     files: 188
+// }
+// function show(data){
+//     console.log(`my name is ${data.name} and my files count is ${data.files}`);
+// }
+// show(user);
+
+function show(data){
+    console.log(`my name is ${data.name} and my files count is ${data.files}`);
+}
+show({
+    name: 'rohan',
+    files: 188
+});
+
+const myNewArray = [200, 400, 100, 600]
+function arrayMeth(newArry){
+    return newArry[1]
+}
+console.log(arrayMeth(myNewArray))
