@@ -39,3 +39,38 @@ console.log(Object.keys(userData2[1]));
 console.log(Object.values(userData2[1]));
 console.log(userData2[0].hasOwnProperty('email'));
 
+
+let course = {
+    courseName: 'jsTut',
+    coursePrice: 899,
+    courseInsturtor: 'mohit'
+}
+let { courseName, coursePrice, courseInsturtor } = course;
+let { courseInsturtor: inst } = course
+console.log(courseName, coursePrice, inst);
+
+//JSON
+// {
+//     "name":"mohit",
+//     "price": 90,
+//     "platform": "youtube"
+// }
+
+// [
+//     {
+//         "name": "mohit",
+//         "price": 90,
+//         "platform": "youtube"
+//     },
+//     {
+//         "name": "mohit",
+//         "price": 90,
+//         "platform": "youtube"
+//     },
+//     {
+//         "name": "mohit",
+//         "price": 90,
+//         "platform": "youtube"
+//     } 
+// ]
+
